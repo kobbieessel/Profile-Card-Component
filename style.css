@@ -1,1 +1,29 @@
-ECHO is on.
+:root {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  background-color: rgba(33, 16, 182, 0.829);
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.card {
+  width: 35rem;
+  height: 45rem;
+  background-color: antiquewhite;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.sec-one {
+  height: 30%;
+  background-color: aqua;
+}
+.sec-two {
+  position: relative;
+}
